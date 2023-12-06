@@ -23,3 +23,9 @@ func ReadFile(filePath string) ([]string, error) {
 
 	return lines, nil
 }
+
+func PrintLines(lines []string) {
+	for _, line := range lines {
+		fmt.Println(line)
+	}
+}
